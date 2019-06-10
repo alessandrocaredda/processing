@@ -17,8 +17,7 @@ void setup ()
  noStroke ();
  frameRate (60);
 
- 
- 
+
 }
   
  void draw ()
@@ -29,11 +28,13 @@ void setup ()
  translate(200,200);
  rotate(radians (frameCount * 2 % 360));
  stroke (100);
- 
+ scale(1);
 triangle(30, 75, 58, 20, 86, 75);
  popMatrix ();
+  }
+
  
-}
+
         </script>
         <canvas></canvas>
     </body>
